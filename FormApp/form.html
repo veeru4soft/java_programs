@@ -1,0 +1,65 @@
+<form action="furl">
+	<table border='1'>
+		<tr> 
+			<td> Name </td>
+			<td> <input type='text' name='tname' value=''/> </td>
+		</tr>
+		
+		<tr> 
+			<td> Age </td>
+			<td> <input type='password' name='tage' value=''/> </td>
+		</tr>
+		
+		<tr> 
+			<td> Gender </td>
+			<td> <input type='radio' name='gen' value='M' checked='chekced' /> Male
+				<input type='radio' name='gen' value='F' /> Female
+			</td>
+		</tr>
+		
+		<tr> 
+			<td> Address </td>
+			<td> <textarea name='taddress' rows='4' cols='20'>
+				 enter address </textarea>
+			</td>
+		</tr>
+		
+		<tr> 
+			<td> Marital Status </td>
+			<td> <input type='checkbox' name='ms' value='married'/>  Married </td>
+		</tr>
+		
+		<tr> 
+			<td> Qualification </td>
+			<td> <select name="qlfy">
+		<option value="B.Tech"> Engg </option>
+		<option value="MBBS"> Medical </option>
+		<option value="B.A"> Arts </option>
+	</select> </td>
+		</tr>
+		
+		<tr> 
+			<td> Courses: </td>
+			<td> <select name="crs" size='3' multiple='multiple'>
+		<option value="java"> Java </option>
+		<option value="dotnet"> Dotnet </option>
+		<option value="testing"> Testing </option>
+	</select> </td>
+		</tr>
+		
+		<tr> 
+			<td>
+				<input type='checkbox' name='hb' value='read' checked /> Reading
+				<input type='checkbox' name='hb' value='stamps' checked /> Stamp Collection
+				<input type='checkbox' name='hb' value='roaming' checked /> Roaming
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2'>
+			<input type='submit' value='Submit'/>
+			<input type='reset' value='Cancel'/>
+			<td>
+		</tr>
+		
+	</table>
+</form>

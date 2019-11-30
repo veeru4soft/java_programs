@@ -1,0 +1,37 @@
+<web-app>
+	<servlet>
+		<servlet-name> html </servlet-name>
+		<servlet-class> com.vb.servlet.HtmlServlet </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> html </servlet-name>
+		<url-pattern> /hturl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name> xml </servlet-name>
+		<servlet-class> com.vb.servlet.XmlServlet </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> xml </servlet-name>
+		<url-pattern> /xmlurl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name> word </servlet-name>
+		<servlet-class> com.vb.servlet.WordServlet </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> word </servlet-name>
+		<url-pattern> /wurl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name> excel </servlet-name>
+		<servlet-class> com.vb.servlet.ExcelServlet </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> excel </servlet-name>
+		<url-pattern> /xurl</url-pattern>
+	</servlet-mapping>
+</web-app>
